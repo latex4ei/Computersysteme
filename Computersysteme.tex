@@ -219,7 +219,7 @@ Big-Endian Adressierung\\
 		\end{tabular}\\
 		Bsp: Push und Pop von zwei Registern {\tt a} und {\tt b}:\\
 		\begin{tabular}{l|l|l}
-			& Push & Pop \\ \midrule
+			& Push & Pop \\ \mrule
 		1. 	& \texttt{SUB SP,SP,2*8} & \texttt{LDO b,SP,0}\\
 		2.	& \texttt{STO b,SP,0*8} & \texttt{LDO a,SP,1*8}\\
 		3.	& \texttt{STO a,SP,1*8} & \texttt{ADD SP,SP,2*8}\\
@@ -380,8 +380,8 @@ Dispatcher: Schaltet Prozesse um. (Akt. Interrupts)\\
 \end{tabular} }}\\	
 \framebox{\parbox{6.0cm}{
 \begin{tabular}{c|c|c}
-Pförtner & Shell & \\ \midrule
-EA & Dateisystem & Prozessverwaltung \\ \midrule
+Pförtner & Shell & \\ \mrule
+EA & Dateisystem & Prozessverwaltung \\ \mrule
 Unterbrechungen & Prozessschedule & \\
 \end{tabular}}}
 \framebox{\parbox{6.0cm}{
